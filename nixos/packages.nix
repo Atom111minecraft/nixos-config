@@ -2,7 +2,7 @@
 
 {
   environment.systemPackages = with pkgs; [
-gnome-text-editor
+    gnome-text-editor
     firefox
     foot
     fastfetch
@@ -10,7 +10,7 @@ gnome-text-editor
     nautilus
     gvfs
     git
-playerctl
+    playerctl
     pavucontrol
     wl-clipboard
     cliphist
@@ -18,5 +18,6 @@ playerctl
     slurp
     git
     flameshot
+    cava
   ];
 }

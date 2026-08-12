@@ -1,7 +1,7 @@
 { pkgs, ... }:
 
 {
-  networking.hostName = "x99";
+  networking.hostName = "nix";
   networking.networkmanager.enable = true;
 security.sudo.wheelNeedsPassword = false;
 services.xserver.enable = true;

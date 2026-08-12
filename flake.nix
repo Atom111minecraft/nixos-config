@@ -7,7 +7,7 @@
   };
 
   outputs = { nixpkgs, noctalia, ... }: {
-    nixosConfigurations.x99 = nixpkgs.lib.nixosSystem {
+    nixosConfigurations.nix = nixpkgs.lib.nixosSystem {
       system = "x86_64-linux";
       modules = [
         noctalia.nixosModules.default
