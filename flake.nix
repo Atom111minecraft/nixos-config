@@ -15,7 +15,7 @@
           zapret-discord-youtube.nixosModules.withTestTools
           {
             services.zapret-discord-youtube.enable = true;
-            services.zapret-discord-youtube.configName = "general (EXP)";
+            services.zapret-discord-youtube.configName = "general(ALT11)";
           }
         ./nixos/configuration.nix
       ];
