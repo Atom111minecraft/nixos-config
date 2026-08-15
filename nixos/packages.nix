@@ -11,6 +11,8 @@
     gvfs
     git
     playerctl
+yazi
+  obsidian
     pavucontrol
     wl-clipboard
     cliphist

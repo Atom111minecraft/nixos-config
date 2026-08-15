@@ -3,6 +3,8 @@
 {
   networking.hostName = "nix";
   networking.networkmanager.enable = true;
+programs.appimage.enable = true;
+  programs.appimage.binfmt = true;
 security.sudo.wheelNeedsPassword = false;
 services.xserver.enable = true;
 nixpkgs.config.allowUnfree = true;
