@@ -13,6 +13,7 @@
     playerctl
 yazi
   obsidian
+  upscayl
     pavucontrol
     wl-clipboard
     cliphist
