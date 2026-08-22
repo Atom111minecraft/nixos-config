@@ -3,6 +3,8 @@
 {
   networking.hostName = "nix";
   networking.networkmanager.enable = true;
+  services.udisks2.enable = true;
+  services.gvfs.enable = true;
 programs.appimage.enable = true;
   programs.appimage.binfmt = true;
 security.sudo.wheelNeedsPassword = false;
@@ -36,8 +38,6 @@ nixpkgs.config.allowUnfree = true;
     pulse.enable = true;
   };
 
-  services.gvfs.enable = true;
-  services.udisks2.enable = true;
 
   fonts.packages = with pkgs; [
     nerd-fonts.jetbrains-mono

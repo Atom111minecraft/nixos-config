@@ -12,6 +12,14 @@
     git
     playerctl
 yazi
+  ntfs3g
+  gnome-disk-utility
+  jmtpfs
+  python3
+  fzf
+  mpv
+  aria2
+  ffmpeg
   obsidian
   upscayl
     pavucontrol
