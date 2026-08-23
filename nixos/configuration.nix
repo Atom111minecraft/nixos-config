@@ -5,6 +5,7 @@
     ./hardware-configuration.nix
     ./packages.nix
     ./modules/system.nix
+    ./modules/security.nix
     ./modules/nvidia.nix
     ./modules/hyprland.nix
     ./modules/noctalia.nix
