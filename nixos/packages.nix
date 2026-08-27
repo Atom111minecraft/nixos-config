@@ -12,6 +12,7 @@
     git
     playerctl
 yazi
+  go
   unzip
   uv
   nftables
