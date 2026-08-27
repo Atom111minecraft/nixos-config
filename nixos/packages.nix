@@ -12,6 +12,7 @@
     git
     playerctl
 yazi
+  nftables
   ntfs3g
   gnome-disk-utility
   jmtpfs
