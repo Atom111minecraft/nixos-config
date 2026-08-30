@@ -12,10 +12,6 @@
     git
     playerctl
 yazi
-    pipx
-  go
-  unzip
-  uv
   nftables
   ntfs3g
   gnome-disk-utility
