@@ -12,6 +12,7 @@
     git
     playerctl
 yazi
+    pipx
   go
   unzip
   uv
