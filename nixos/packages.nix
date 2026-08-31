@@ -12,6 +12,7 @@
     git
     playerctl
 yazi
+    bottom
   nftables
   ntfs3g
   gnome-disk-utility
