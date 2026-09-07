@@ -13,6 +13,7 @@
     playerctl
 yazi
     bottom
+    superfile
   nftables
   ntfs3g
   gnome-disk-utility
