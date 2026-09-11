@@ -13,6 +13,7 @@
     playerctl
 yazi
     bottom
+    freetube
     superfile
   nftables
   ntfs3g
