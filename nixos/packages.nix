@@ -14,6 +14,7 @@
 yazi
     bottom
     superfile
+    hayase
   nftables
   ntfs3g
   gnome-disk-utility
