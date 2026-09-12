@@ -7,6 +7,8 @@ let
     postBuild = ''
       wrapProgram "$out/bin/openshot-qt" \
         --set QT_QPA_PLATFORM xcb \
+        --set QT_OPENGL software \
+        --set LIBGL_ALWAYS_SOFTWARE 1 \
         --set SDL_VIDEODRIVER x11 \
         --set SDL_AUDIODRIVER pulseaudio
     '';
