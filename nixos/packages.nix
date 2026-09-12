@@ -14,6 +14,7 @@
 yazi
     bottom
     superfile
+    shotcut
     openshot-qt
   nftables
   ntfs3g
