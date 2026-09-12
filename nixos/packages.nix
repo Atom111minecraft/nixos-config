@@ -14,7 +14,7 @@
 yazi
     bottom
     superfile
-    hayase
+    openshot-qt
   nftables
   ntfs3g
   gnome-disk-utility
