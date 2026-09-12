@@ -2,7 +2,6 @@
 
 {
   imports = [
-    ./modules/openshot.nix
     ./hardware-configuration.nix
     ./packages.nix
     ./modules/system.nix
