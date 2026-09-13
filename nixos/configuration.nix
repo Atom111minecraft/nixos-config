@@ -2,6 +2,7 @@
 
 {
   imports = [
+    ./modules/ollama.nix
     ./hardware-configuration.nix
     ./packages.nix
     ./modules/system.nix
