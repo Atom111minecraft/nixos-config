@@ -2,7 +2,7 @@
 {
   services.ollama = {
     enable = true;
-    acceleration = "cuda";
+    package = pkgs.ollama-cuda;
   };
 
   environment.systemPackages = [ pkgs.uv ];
