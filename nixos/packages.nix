@@ -14,6 +14,7 @@
 yazi
     bottom
     superfile
+    inxi
     shotcut
   nftables
   ntfs3g
