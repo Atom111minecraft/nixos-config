@@ -7,4 +7,5 @@
 
   environment.systemPackages = [ pkgs.uv ];
   nix.settings.max-jobs = 12;
+  nix.settings.cores = 12;
 }
