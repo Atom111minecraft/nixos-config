@@ -19,3 +19,10 @@
   systemd.services.nix-daemon.serviceConfig.CPUQuota = "50%";
   documentation.doc.enable = false;
 }
+
+  programs.nix-ld = {
+    enable = true;
+    libraries = with pkgs; [
+      stdenv.cc.cc
+    ];
+  };
