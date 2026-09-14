@@ -5,20 +5,19 @@
     package = pkgs.ollama-cuda;
   };
 
-  environment.systemPackages = [
-    pkgs.uv
-    pkgs.rustc
-    pkgs.cargo
-    pkgs.gcc
-    pkgs.binutils
-    pkgs.python311
+  environment.systemPackages = with pkgs; [
+    uv
+    rustc
+    cargo
+    gcc
+    binutils
+    python311
   ];
 
   nix.settings.max-jobs = 12;
   nix.settings.cores = 12;
   systemd.services.nix-daemon.serviceConfig.CPUQuota = "50%";
   documentation.doc.enable = false;
-}
 
   programs.nix-ld = {
     enable = true;
@@ -26,3 +25,4 @@
       stdenv.cc.cc
     ];
   };
+}
