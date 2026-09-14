@@ -9,3 +9,5 @@
   nix.settings.max-jobs = 12;
   nix.settings.cores = 12;
 }
+
+  documentation.doc.enable = false;
