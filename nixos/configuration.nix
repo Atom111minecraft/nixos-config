@@ -2,6 +2,7 @@
 
 {
   imports = [
+    ./modules/steam.nix
     ./modules/ollama.nix
     ./hardware-configuration.nix
     ./packages.nix
