@@ -11,7 +11,7 @@
     pkgs.cargo
     pkgs.gcc
     pkgs.binutils
-    pkgs.python312
+    pkgs.python311
   ];
 
   nix.settings.max-jobs = 12;
