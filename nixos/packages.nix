@@ -35,5 +35,7 @@ yazi
     git
     flameshot
     cava
+    qalculate-gtk
+    qalc
   ];
 }
