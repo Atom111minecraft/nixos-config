@@ -36,6 +36,5 @@ yazi
     flameshot
     cava
     qalculate-gtk
-    flatpak
   ];
 }
