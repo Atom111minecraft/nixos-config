@@ -2,8 +2,7 @@
 
 {
   imports = [
-    ./modules/autoclicker.nix
-    ./modules/autoclicker.nix
+    ./modules/flatpak.nix
     ./modules/steam.nix
     ./modules/ollama.nix
     ./hardware-configuration.nix
