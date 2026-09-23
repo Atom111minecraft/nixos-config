@@ -36,6 +36,6 @@ yazi
     flameshot
     cava
     qalculate-gtk
-    sober
+    flatpak
   ];
 }
