@@ -8,7 +8,7 @@
     sober.url = "github:vinegarhq/sober";
   };
 
-  outputs = { nixpkgs, noctalia, zapret-discord-youtube, sober, ... }: {
+  outputs = { nixpkgs, noctalia, zapret-discord-youtube, ... }: {
     nixosConfigurations.nix = nixpkgs.lib.nixosSystem {
       system = "x86_64-linux";
       modules = [
