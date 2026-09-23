@@ -5,6 +5,7 @@
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-26.05";
     noctalia.url = "github:noctalia-dev/noctalia";
     zapret-discord-youtube.url = "github:kartavkun/zapret-discord-youtube";
+    sober.url = "github:vinegarhq/sober";
   };
 
   outputs = { nixpkgs, noctalia, zapret-discord-youtube, ... }: {
@@ -12,6 +13,7 @@
       system = "x86_64-linux";
       modules = [
         noctalia.nixosModules.default
+        sober.nixosModules.default
           zapret-discord-youtube.nixosModules.withTestTools
           {
             services.zapret-discord-youtube.enable = true;
