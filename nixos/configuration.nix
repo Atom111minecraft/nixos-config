@@ -2,6 +2,7 @@
 
 {
   imports = [
+    ./modules/pcie.nix
     ./modules/steam.nix
     ./modules/ollama.nix
     ./hardware-configuration.nix
