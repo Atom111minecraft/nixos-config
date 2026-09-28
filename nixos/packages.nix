@@ -28,6 +28,7 @@ yazi
   obsidian
   upscayl
     pavucontrol
+    pipewire
     wl-clipboard
     cliphist
     grim
