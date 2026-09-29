@@ -4,7 +4,6 @@
   imports = [
     ./modules/pcie.nix
     ./modules/steam.nix
-    ./modules/ollama.nix
     ./hardware-configuration.nix
     ./packages.nix
     ./modules/system.nix
