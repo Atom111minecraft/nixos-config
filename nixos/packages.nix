@@ -37,5 +37,6 @@ yazi
     flameshot
     cava
     qalculate-gtk
+    onlyoffice-bin
   ];
 }
