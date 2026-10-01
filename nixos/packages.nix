@@ -36,7 +36,7 @@ yazi
     git
     flameshot
     cava
-    cli-visualizer
+    xava
     qalculate-gtk
     onlyoffice-desktopeditors
   ];
