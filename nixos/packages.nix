@@ -36,6 +36,7 @@ yazi
     git
     flameshot
     cava
+    glava
     qalculate-gtk
     onlyoffice-desktopeditors
   ];
